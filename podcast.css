@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Monsterrat";
+    src: url("Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+}
+@font-face {
+    font-family: "Monsterrat";
+    src: url("Montserrat_Alternates/MontserratAlternates-Bold.ttf");
+    font-weight: bold;
+}
+:root {
+    --primary: #CD4631;
+    --davys-grey: #4D4D4D;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Monsterrat", serif;
+}
+.header {
+    background-color: #F7EDE8;
+    padding: 1rem 8rem 2rem 8rem;
+}
+
+/* Nav Menu styles*/
+.header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding-top: 1rem;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+.nav-left .logo {
+    margin-right: 3rem;
+}
+.nav-left a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-left a:hover{
+    text-decoration: underline;
+}
+
+/* Generic Button class */
+.btn {
+    height: 2.5rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: "Monsterrat", serif;
+    font-weight: bold;
+    padding-inline: 1.2rem;
+    cursor: pointer;
+}
+.btn.secondary {
+    background-color: #F7EDE8;
+}
+.btn.primary {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.25);
+}
