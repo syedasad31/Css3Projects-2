@@ -14,7 +14,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: "Monsterrat", serif;
 }
 .header {
@@ -47,6 +47,7 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-left a:hover{
