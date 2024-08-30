@@ -72,3 +72,43 @@ body {
     color: white;
     box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.25);
 }
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.hero-img {
+    width: 40%;
+}
+.hero-info {
+    width: 50%;
+}
+
+.number-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+.episode-title {
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+
+.ep-featured {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.episode-description {
+    line-height: 2rem;
+}
