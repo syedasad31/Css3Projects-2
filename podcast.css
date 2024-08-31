@@ -107,8 +107,96 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
+    font-size: 0.6rem;
 }
 
 .episode-description {
     line-height: 2rem;
+}
+
+
+.metadata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 3rem;
+}
+
+.metadata .author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.metadata .author .avatar {
+    width: 2.5rem;
+    height: auto;
+}
+
+.metadata .author .host-label {
+    margin-left: .5rem;
+}
+.metadata .author .host-name {
+    margin-left: .5rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.episode-actions {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.episode-actions button + button {
+    margin-left: 3rem;
+}
+
+.episode-actions .secondary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn.lg {
+    height: 4rem;
+    padding-inline: 2.3rem;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.episode-actions .secondary span {
+    margin-left: 0.5rem;
+}
+.episode-actions .secondary img {
+    margin-right: 0.5rem;
+}
+.minutes {
+    color: var(--primary);
+}
+
+button.btn:hover {
+    border: 2px solid var(--primary);
+}
+
+button.btn:active {
+    box-shadow: none;
+}
+
+.tags {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.tags .label {
+    margin-right: 2.5rem;
+}
+
+.tags .tag-name {
+    border-radius: 5px;
+    border: 1px solid var(--davys-grey);
+    padding: 6px 12px;
+    color: gray;
 }
